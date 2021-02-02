@@ -20,6 +20,7 @@ export default () => {
     }
   };
 
+  // Does one (because second arg is empty array) default search run on first render
   useEffect(() => {
     searchApi('wings');
   }, []);
